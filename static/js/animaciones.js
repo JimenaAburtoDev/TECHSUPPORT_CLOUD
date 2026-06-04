@@ -8,8 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let actual = 0;
 
-    const velocidad = Math.max(10, 1000 / total);
-
     const intervalo = setInterval(() => {
 
         actual++;
@@ -21,6 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
             clearInterval(intervalo);
         }
 
-    }, velocidad);
+    }, 80);
 
 });
