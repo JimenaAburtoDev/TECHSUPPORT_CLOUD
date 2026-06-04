@@ -11,6 +11,7 @@ def get_connection():
         database="techsupport"
     )
 
+# Ruta principal del sistema
 @app.route("/")
 def inicio():
 
